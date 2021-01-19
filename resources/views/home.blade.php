@@ -7,17 +7,19 @@
         <div class="my-3 py-3">
             <h2 class="display-5">Julian Vieser</h2>
             <p class="promo-block-text">Webentwickler</p>
-            <div class="row">
-                <div class="col align-self-start">
-                    <a target="_blank" href="https://www.xing.com/profile/Julian_Vieser/" class="fa fa-xing fa-2x"></a>
-                </div>
-                <div class="col align-self-center">
-                    <a target="_blank" href="https://www.linkedin.com/in/julian-vieser-a5658279/" class="fa fa-linkedin fa-2x"></a>
-                </div>
-                <div class="col align-self-end">
-                    <a target="_blank" href="https://github.com/Terrah4wk" class="fa fa-github fa-2x"></a>
-                </div>
-            </div>
+            <table class="mx-auto">
+                <tr>
+                    <td class="w-25">
+                        <a target="_blank" href="https://www.xing.com/profile/Julian_Vieser/" class="fa fa-xing fa-2x"></a>
+                    </td>
+                    <td class="w-25">
+                        <a target="_blank" href="https://www.linkedin.com/in/julian-vieser-a5658279/" class="fa fa-linkedin fa-2x"></a>
+                    </td>
+                    <td class="w-25">
+                        <a target="_blank" href="https://github.com/Terrah4wk" class="fa fa-github fa-2x"></a>
+                    </td>
+                </tr>
+            </table>
         </div>
     </div>
     <div class="me-md-3 px-3 px-md-5 text-center overflow-hidden">
