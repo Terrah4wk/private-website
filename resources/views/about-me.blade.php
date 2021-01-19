@@ -7,7 +7,7 @@
         <div class="my-3 py-3">
             <h2 class="display-5">Über mich</h2>
             <p class="promo-block-text">
-                geboren am 24.07.1984 in Lahr/Schwarzwald.<br>
+                geboren 1984 in Lahr/Schwarzwald.<br>
                 Softwareentwickler (bevorzugt Backend)<br>
             </p>
         </div>
