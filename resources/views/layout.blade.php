@@ -24,17 +24,17 @@
 
                 <div class="collapse navbar-collapse" id="toggle">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="{{ route('site.home') }}">Home</a>
+                        <li class="nav-item">
+                            <a class="nav-link {{ request()->routeIs('site.home') ? 'active' : '' }}" href="{{ route('site.home') }}">Home</a>
                         </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="{{ route('site.about-me') }}">Über mich</a>
+                        <li class="nav-item">
+                            <a class="nav-link {{ request()->routeIs('site.about-me') ? 'active' : '' }}" href="{{ route('site.about-me') }}">Über mich</a>
                         </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="{{ route('site.cv') }}">Lebenslauf</a>
+                        <li class="nav-item">
+                            <a class="nav-link {{ request()->routeIs('site.cv') ? 'active' : '' }}" href="{{ route('site.cv') }}">Lebenslauf</a>
                         </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="{{ route('site.imprint') }}">Impressum</a>
+                        <li class="nav-item">
+                            <a class="nav-link {{ request()->routeIs('site.imprint') ? 'active' : '' }}" href="{{ route('site.imprint') }}">Impressum</a>
                         </li>
                     </ul>
                 </div>
